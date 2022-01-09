@@ -1,5 +1,4 @@
 ---
-menu: "main"
 draft: false
 ---
 

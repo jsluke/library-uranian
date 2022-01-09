@@ -1,9 +1,34 @@
 <header>
-  <div class="pb3-m pb6-l bg-black">
-    <div class="tc-l pv3 ph3 ph4-ns">
-      <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-        {{ .Site.Title }}
-      </h1>
+  <div class="pb3-m pb4-l bg-black">
+    <div class="tc-l pv3 ph4 ph4-ns flex justify-between items-end">
+      <div class="w25">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          {{ .Site.Title }}
+        </h1>
+      </div>
+      <div class="flex min-h justify-between">
+        {{ if .Site.Menus.main }}
+          <ul class="pl0 mr3 mh2">
+            <li class="list f5 f3-ns fw4 dib bb bw3 mh2" style="border-color: white;">
+              <a class="hover-white no-underline white" href="/" title="Home page">
+                Home
+              </a>
+            </li>
+            {{ range .Site.Menus.main }}
+            <li class="list f5 f3-ns fw4 dib bb bw3 mh2" style="border-color: white;">
+              <a class="hover-white no-underline white" href="{{ .URL }}" title="{{ .Name }} page">
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
+            <li class="list f5 f3-ns fw4 dib bb bw3 mh2" style="border-color: white;">
+              <a class="hover-white no-underline white" href="https://github.com" title="Github">
+                Github
+              </a>
+            </li>
+          </ul>
+        {{ end }}
+      </div>
     </div>
   </div>
 </header>
