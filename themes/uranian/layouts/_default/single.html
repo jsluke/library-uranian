@@ -1,40 +1,12 @@
 {{ define "main" }}
-<section id="main">
-  <h1 id="title">{{ .Title }}</h1>
-  <div>
-        <article id="content">
-           {{ .Content }}
-        </article>
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+  <header class="mt4 w-100">
+    <aside class="b helvetica tracked">
+      {{with .Title }}{{. | upper }}{{end}}
+    </aside>
+  </header>
+  <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    {{- .Content -}}
   </div>
-</section>
-<aside id="meta">
-    <div>
-    <section>
-      <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
-      <h5 id="wordcount"> {{ .WordCount }} Words </h5>
-    </section>
-    {{ with .Params.topics }}
-    <ul id="topics">
-      {{ range . }}
-        <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
-      {{ end }}
-    </ul>
-    {{ end }}
-    {{ with .Params.tags }}
-    <ul id="tags">
-      {{ range . }}
-        <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
-      {{ end }}
-    </ul>
-    {{ end }}
-    </div>
-    <div>
-        {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-        {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-    </div>
-</aside>
+</article>
 {{ end }}
