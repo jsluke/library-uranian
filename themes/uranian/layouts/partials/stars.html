@@ -1,0 +1,8 @@
+{{ $filledStars := . }}
+{{ $emptyStars := sub 3 $filledStars }}
+{{ range seq $filledStars }}
+  {{ partial "svg" "star-filled" }}
+{{ end }}
+{{ range seq $emptyStars }}
+  {{ partial "svg" "star-regular" }}
+{{ end }}

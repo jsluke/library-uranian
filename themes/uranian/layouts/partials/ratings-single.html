@@ -1,0 +1,16 @@
+<div>
+  <p class="tracked">
+    <span>How <strong>gay</strong> is it?</span>
+    {{ partial "stars" .Params.gay }}
+  </p>
+  <blockquote class="pa1 pl3 bl">
+    {{ .Params.gayDesc }}
+  </blockquote>
+  <p class="tracked">
+    <span>How <strong>explicit</strong> is the language?</span>
+    {{ partial "stars" .Params.explicit }}
+  </p>
+  <blockquote class="pa1 pl3 bl">
+    {{ .Params.explicitDesc }}
+  </blockquote>
+</div>
