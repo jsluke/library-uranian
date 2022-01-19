@@ -3,12 +3,24 @@
     <div class="flex flex-column flex-row-ns">
       <div class="w-100">
         <div class="flex min-h justify-between">
-          <h1 class="f3 fw1 athelas mt0 lh-title">
+          <h1 class="f3 fw1 athelas ma0 lh-title">
             <a href="{{.RelPermalink}}" class="color-inherit dim link">
-              {{ .Params.firstPublished }} | {{ .Title }}
+              {{ .Title }}
             </a>
           </h1>
           {{ partial "ratings-blurb.html" . }}
+        </div>
+        <div class="pa0 mb2">
+          <span class="tracked">
+            {{ .Params.firstPublished }}, 
+            {{ with .Params.author }}
+              {{ if reflect.IsSlice . }}
+                  {{ delimit . ", " | markdownify }}
+              {{else}}
+                  {{ . | markdownify }}
+              {{ end }}
+            {{ end }}
+          </p>
         </div>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           {{ .Summary }}

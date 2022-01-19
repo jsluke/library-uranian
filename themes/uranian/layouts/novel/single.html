@@ -33,14 +33,6 @@
     <div>
       {{- partial "tags.html" . -}}
     </div>
-    <div>
-        {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-        {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-    </div>
   </div>
 </article>
 {{ end }}
