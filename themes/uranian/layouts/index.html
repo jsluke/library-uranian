@@ -10,14 +10,14 @@
     </article>
     <div class="ph3 ph4-ns w-100 w-70-ns center">
       <aside class="b helvetica tracked">
-        NOVEL SPOTLIGHT
+        SPOTLIGHT
       </aside>
     </div>
     <div class="ph3 ph4-ns w-100 w-70-ns center">
       <section class="w-100 mw8">
         {{ range where .Site.RegularPages ".Params.spotlight" "eq" true }}
           <div class="relative w-100 mb2">
-            {{ partial "novel-blurb.html" . }}
+            {{ partial "book-blurb.html" . }}
           </div>
         {{ end }}
       </section>

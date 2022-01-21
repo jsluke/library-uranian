@@ -8,7 +8,7 @@
     <section class="w-100 mw8">
       {{ range where .Site.RegularPages ".Params.spotlight" "eq" true }}
         <div class="relative w-100 mb2">
-          {{ partial "novel-blurb.html" . }}
+          {{ partial "book-blurb.html" . }}
         </div>
       {{ end }}
     </section>

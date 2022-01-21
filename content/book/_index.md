@@ -1,5 +1,5 @@
 ---
-title: "Novels"
+title: "Books"
 weight: -100
 ---
 
