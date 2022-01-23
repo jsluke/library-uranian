@@ -3,4 +3,4 @@ title: "Books"
 weight: -100
 ---
 
-We will list all of the menus and provide filtering functionality here.
+All books in the Library Uranian collection are within the US public domain and are available to view or download for free. We hope that you discover something new to read and enjoy!

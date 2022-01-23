@@ -1,16 +1,28 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-      {{- .Content -}}
-    </section>
-  </article>
-  <div class="ph3 ph4-ns w-100 w-70-ns center">
-    <section class="w-100 mw8">
+<main aria-role="main">
+  <div class="ph3 pt4 ph4-ns w-100 w-70-ns center">
+    <aside class="b helvetica tracked">
+      THE LIBRARY URANIAN COLLECTION
+    </aside>
+    <article class="nested-copy-line-height lh-copy serif f4 mid-gray center">
+      {{ .Content }}
+    </article>
+    <aside class="b helvetica tracked mb4">
+      ALL TAGS
+    </aside>
+    <div class="mw8 mb4 nested-links">
+      {{- partial "taxonomy-tags.html" .Site.Taxonomies.tags -}}
+    </div>
+    <aside class="b helvetica tracked">
+      ALL BOOKS
+    </aside>
+    <section class="mw8">
       {{ range where .Site.RegularPages ".Params.spotlight" "eq" true }}
-        <div class="relative w-100 mb2">
+        <div class="relative mb2">
           {{ partial "book-blurb.html" . }}
         </div>
       {{ end }}
     </section>
   </div>
+</main>
 {{ end }}

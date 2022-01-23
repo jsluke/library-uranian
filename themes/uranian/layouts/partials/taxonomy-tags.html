@@ -1,0 +1,6 @@
+<div class="flex">
+  {{ range $key, $value := . }}
+    {{ $title:= title $key }}
+    {{ partial "tag.html" $title }}
+  {{ end }}
+</div>
