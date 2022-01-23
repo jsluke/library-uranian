@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <header class="ph3 pt4 ph4-ns w-100 w-70-ns center">
+    <aside class="b helvetica tracked">
+      BOOKS TAGGED "{{ upper .Title }}"
+    </aside>
+  </header>
+  <div class="ph3 ph4-ns w-100 w-70-ns center">
+    <section class="w-100 mw8">
+      {{ range .Pages }}
+        <div class="relative w-100 mb2">
+          {{ partial "book-blurb.html" . }}
+        </div>
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

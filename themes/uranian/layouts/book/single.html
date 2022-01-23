@@ -29,6 +29,9 @@
     {{ partial "ratings-single.html" . }}
   </header>
   <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    <p>
+      <i>{{ .Params.summary }}</i>
+    </p>
     {{- .Content -}}
     <div>
       {{- partial "tags.html" . -}}

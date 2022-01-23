@@ -1,4 +1,4 @@
-{{ $filledStars := . }}
+{{ $filledStars := (int .) }}
 {{ $emptyStars := sub 3 $filledStars }}
 {{ range seq $filledStars }}
   {{ partial "svg" "star-filled" }}

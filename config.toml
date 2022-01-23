@@ -4,3 +4,6 @@ title = 'Library Uranian'
 theme = 'uranian'
 
 SectionPagesMenu = "main"
+
+[taxonomies]
+  tag = 'tags'
