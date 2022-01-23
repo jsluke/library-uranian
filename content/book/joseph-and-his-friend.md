@@ -4,13 +4,12 @@ author: "Bayard Taylor"
 firstPublished: 1870
 download: https://www.gutenberg.org/ebooks/54863
 summary: "Joseph works on a large family farm that was handed down to him from his parents. Cloistered away most of his life, he begins to explore the burgeoning social life among the other young adults in the community."
-tags: ["Romance","American"]
+tags: ["Romance","Novel"]
 gay: 2
 gayDesc: "This is a quick blurb to justify the rating for how gay the novel is."
 explicit: 0
 explicitDesc: "This is a quick blurb to justify the rating for how explicit the language in the novel is."
 spotlight: true
-layout: novel
 draft: true
 ---
 
