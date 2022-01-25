@@ -2,4 +2,6 @@
 draft: false
 ---
 
-Fusce ultrices sit amet leo at pellentesque. Praesent feugiat, mi dictum laoreet dictum, massa elit ultricies nisi, nec fermentum sem nibh porta massa. Donec arcu ligula, finibus in vestibulum in, varius at erat. Donec sagittis mi nunc, ac semper nunc congue sit amet. Sed accumsan sem in dolor malesuada viverra. Sed consequat diam vel commodo sollicitudin. Quisque eget molestie lorem. Maecenas mollis, nisi sed ornare sagittis, sapien nisi iaculis lectus, in finibus magna ligula non massa. Nulla sagittis magna at risus molestie maximus. Nullam feugiat blandit neque, sed pretium ante bibendum sit amet. Mauris egestas lacinia sapien, id mollis eros efficitur sed. Vestibulum semper eu metus nec posuere. Duis feugiat ornare malesuada. Sed sed dapibus mi. 
+Library Uranian curates out of copyright gay literature, making these historical works freely available to all. In the United States, written works fall out of copyright and into public domain after 95 years, allowing them to be republished, reused, remixed, for whatever purpose. This allows us to make the reading experience better: our goal is to not only curate these often forgotten works, but to improve upon the versions that are currently available online.
+
+The 95 year restriction gives us a look into a time period not often discussed in terms of gay literature. We hope that this material will help readers connect the dots in the journey to gay liberation.
