@@ -8,7 +8,7 @@ tags: ["Romance","Novel"]
 gay: 3
 gayDesc: "It is clear that novel's narrator is gay from the beginning. The story focuses entirely on his relationship with the titular Imre."
 spotlight: true
-draft: true
+draft: false
 ---
 
 Stevenson published this novel under the pseudonym "Xavier Mayne." Only 500 copies were published. Stevenson described the novel as "a little psychological romance." The characters struggle with their identities as well as each others. How much will the narrator risk for a chance of true connection in a foreign land?
