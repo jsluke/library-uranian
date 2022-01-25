@@ -1,6 +1,6 @@
 <header>
   <div class="pb3-m pb4-l bg-black">
-    <div class="tc pv3 ph4 ph4-ns">
+    <div class="tc pv1 ph1">
       <div class="w25">
         <h1 class="f2 f-subheadline-l fw2 white mb0 lh-title">
           {{ .Site.Title }}
@@ -9,19 +9,19 @@
       <div class="flex min-h justify-center">
         {{ if .Site.Menus.main }}
           <ul class="pl0 mr3 mh2">
-            <li class="list f4-m f3-ns fw4 dib bb bw3 mh2" style="border-color: white;">
+            <li class="list f4-m f3-ns fw4 dib bb bw3 mh2 pt2" style="border-color: white;">
               <a class="hover-white no-underline white" href="/" title="Home page">
                 Home
               </a>
             </li>
             {{ range .Site.Menus.main }}
-            <li class="list f4-m f3-ns fw4 dib bb bw3 mh2" style="border-color: white;">
+            <li class="list f4-m f3-ns fw4 dib bb bw3 mh2 pt2" style="border-color: white;">
               <a class="hover-white no-underline white" href="{{ .URL }}" title="{{ .Name }} page">
                 {{ .Name }}
               </a>
             </li>
             {{ end }}
-            <li class="list f4-m f3-ns fw4 dib bb bw3 mh2" style="border-color: white;">
+            <li class="list f4-m f3-ns fw4 dib bb bw3 mh2 pt2" style="border-color: white;">
               <a class="hover-white no-underline white" href="https://github.com/jsluke/library-uranian" title="Github">
                 Github
               </a>
