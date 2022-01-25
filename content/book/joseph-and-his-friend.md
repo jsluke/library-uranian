@@ -3,12 +3,10 @@ title: "Joseph and His Friend: A Story of Pennsylvania"
 author: "Bayard Taylor"
 firstPublished: 1870
 download: https://www.gutenberg.org/ebooks/54863
-summary: "Joseph works on a large family farm that was handed down to him from his parents. Cloistered away most of his life, he begins to explore the burgeoning social life among the other young adults in the community."
+summary: "Joseph works on a large family farm that was handed down to him from his parents. He finds love in some unexpected encounters. Feeling constricted by country life's societal boundaries, will this new love set him free? Or is his fate already settled?"
 tags: ["Romance","Novel"]
 gay: 2
-gayDesc: "This is a quick blurb to justify the rating for how gay the novel is."
-explicit: 0
-explicitDesc: "This is a quick blurb to justify the rating for how explicit the language in the novel is."
+gayDesc: "Joseph falls in love with another man and struggles with his duties to his new wife."
 spotlight: true
 draft: false
 ---
