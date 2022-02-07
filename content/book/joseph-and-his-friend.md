@@ -3,14 +3,16 @@ title: "Joseph and His Friend: A Story of Pennsylvania"
 author: "Bayard Taylor"
 firstPublished: 1870
 download: https://www.gutenberg.org/ebooks/54863
-summary: "Joseph works on a large family farm that was handed down to him from his parents. He finds love in some unexpected encounters. Feeling constricted by country life's societal boundaries, will this new love set him free? Or is his fate already settled?"
-tags: ["Romance","Novel"]
+summary: "Joseph works on a large family farm that was handed down to him from his parents. He finds love in unexpected encounters. Feeling constricted by country life's societal boundaries, will this new love set him free? Or is his fate already settled?"
+tags: ["Drama","Novel"]
 gay: 2
-gayDesc: "Joseph falls in love with another man and struggles with his duties to his new wife."
+gayDesc: "An important side plot involves Joseph's intense relationship with a male friend. Both characters in this relationship also have female love interests that they care deeply about. Through a modern lens they might be considered bisexual. Much of the plot revolves around other, straight relationships."
 spotlight: true
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus non urna et scelerisque. Nullam ut blandit diam. Fusce dignissim suscipit mi, vitae imperdiet sapien tincidunt id. In ornare, dui placerat sagittis suscipit, nulla arcu scelerisque neque, id volutpat lorem quam lacinia orci. Integer finibus, ligula sed sodales rhoncus, risus magna auctor sapien, in ultricies leo lorem laoreet ligula. Praesent tempor augue nec ornare dignissim. Nullam eget mattis felis. Sed sed tincidunt quam. Sed porttitor tempus commodo. Nulla maximus ut erat vel gravida. Donec consequat, felis eget eleifend auctor, lacus magna auctor nulla, non lacinia mi urna sed ex. Vivamus dapibus dolor at consequat fermentum.
+Described by some as “America's first gay novel,” *Joseph and His Friend* showcases Taylor's idealized view of the perfect male-male relationship. The other relationships that form within the story entangle and complicate the lives of all involved.
 
-Fusce volutpat nisi a nisi tempor, sed volutpat ante consectetur. Curabitur cursus sit amet ligula vitae bibendum. Sed id consectetur magna. Aenean tristique orci diam, in rhoncus odio posuere vel. Phasellus aliquet enim at ultrices blandit. Ut sit amet pulvinar nunc. Praesent quis arcu vitae augue condimentum interdum. Integer orci turpis, efficitur sit amet rhoncus non, vulputate sed lacus. Praesent vel gravida mi. Nam efficitur massa in feugiat laoreet. Cras a tristique nulla. Maecenas vitae ligula in neque tincidunt rutrum a nec felis. Cras eget fermentum ex. que fermentum tortor id nisi aliquam aliquet vel in magna. Praesent cursus enim non venenatis consequat. In eget ligula nec metus pellentesque mollis. 
+Taylor takes a grim view of city society and their relationship with their country neighbors. Joseph's encounters with many of the city residents reveal them to be uncaring, fake, and greedy. The country town isn't spared criticism, especially for its gossipy and rigid residents. The Reverend Mr. Chaffinch provides an entertaining caricature that simply cannot comprehend Joseph's views on spirituality.
+
+Although Joseph grapples with his spirituality by examining his life's course, his relationship with his male friend is never questioned as being ungodly or wrong. 
