@@ -17,7 +17,7 @@
       ALL BOOKS
     </aside>
     <section class="mw8">
-      {{ range where .Site.RegularPages ".Params.spotlight" "eq" true }}
+      {{ range .Pages }}
         <div class="relative mb2">
           {{ partial "book-blurb.html" . }}
         </div>
